@@ -1,0 +1,73 @@
+body {
+  background-image: url("photo/assets/mobile_index_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+}
+
+.achieve {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.works-h1 {
+  border: 1px solid wheat;
+  background-color: orangered;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wok-ach {
+  display: flex;
+  border: 1px solid white;
+  background-image: url(photo/assets/pattern.png);
+  width: 11rem;
+  background: #272a31;
+  color: #fff;
+  align-items: center;
+  /* height: 12rem; */
+  justify-content: center;
+}
+
+.wok-ach:hover {
+  width: 12rem;
+}
+
+ .all-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.ph1 {
+  display: flex;
+  margin: 3px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.ph img {
+  width: 10rem;
+  height: 130px;
+}
